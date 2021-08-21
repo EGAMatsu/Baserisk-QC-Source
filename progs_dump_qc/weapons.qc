@@ -203,7 +203,7 @@ void() W_FireAxe =
 	{
 		trace_ent.axhitme = 1;
 		SpawnBlood (org, '0 0 0', 20);
-		T_Damage (trace_ent, self, self, 20);
+		T_Damage (trace_ent, self, self, 10);
 	}
 	else
 	{	// hit wall
@@ -424,7 +424,7 @@ void() W_FireShotgun =
 
 	self.currentammo = self.ammo_shells = self.ammo_shells - 1;
 	dir = aim (self, 100000);
-	FireBullets (6, dir, '0.04 0.04 0');
+	FireBullets (3, dir, '0.04 0.04 0');
 };
 
 /*
@@ -442,7 +442,7 @@ void() W_FirePistol =
 
 	self.currentammo = self.ammo_shells = self.ammo_shells - 1;
 	dir = aim (self, 100000);
-	FireBullets (5, dir, '0 0 0');
+	FireBullets (2, dir, '0 0 0');
 };
 
 /*
@@ -460,7 +460,7 @@ void() W_FireMinigun =
 
 	self.currentammo = self.ammo_shells = self.ammo_shells - 1;
 	dir = aim (self, 100000);
-	FireBullets (5, dir, '0 0 0');
+	FireBullets (6, dir, '0 0 0');
 };
 
 /*
@@ -484,7 +484,7 @@ void() W_FireSuperShotgun =
 
 	self.currentammo = self.ammo_shells = self.ammo_shells - 2;
 	dir = aim (self, 100000);
-	FireBullets (14, dir, '0.14 0.08 0');
+	FireBullets (8, dir, '0.14 0.08 0');
 };
 
 

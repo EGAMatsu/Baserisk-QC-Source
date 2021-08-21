@@ -11,7 +11,7 @@ $origin 0 -6 24
 $base base
 $skin skin
 
-$frame stand1 stand2 stand3 stand4 stand5 stand6
+$frame stand1 stand2 stand3 stand4 stand5 stand6 stand7 stand8 stand9 stand10 stand11 stand12 stand13 stand14 stand15 stand16 stand17 stand18 stand19 
 
 $frame walk1 walk2 walk3 walk4 walk5 walk6 walk7 walk8
 
@@ -141,7 +141,22 @@ void()	scim_stand2	=[	$stand2,	scim_stand3	] {ai_stand();};
 void()	scim_stand3	=[	$stand3,	scim_stand4	] {ai_stand();};
 void()	scim_stand4	=[	$stand4,	scim_stand5	] {ai_stand();};
 void()	scim_stand5	=[	$stand5,	scim_stand6	] {ai_stand();};
-void()	scim_stand6	=[	$stand6,	scim_stand1	] {ai_stand();};
+void()	scim_stand6	=[	$stand6,	scim_stand7	] {ai_stand();};
+void()	scim_stand7	=[	$stand7,	scim_stand8	] {ai_stand();};
+void()	scim_stand8	=[	$stand8,	scim_stand9	] {ai_stand();};
+void()	scim_stand9	=[	$stand9,	scim_stand10	] {ai_stand();};
+
+void()	scim_stand10	=[	$stand10,	scim_stand11	] {ai_stand();};
+
+void()	scim_stand11	=[	$stand11,	scim_stand12	] {ai_stand();};
+void()	scim_stand12	=[	$stand12,	scim_stand13	] {ai_stand();};
+void()	scim_stand13	=[	$stand13,	scim_stand14	] {ai_stand();};
+void()	scim_stand14	=[	$stand14,	scim_stand15	] {ai_stand();};
+void()	scim_stand15	=[	$stand15,	scim_stand16	] {ai_stand();};
+void()	scim_stand16	=[	$stand16,	scim_stand17	] {ai_stand();};
+void()	scim_stand17	=[	$stand17,	scim_stand18	] {ai_stand();};
+void()	scim_stand18	=[	$stand18,	scim_stand19	] {ai_stand();};
+void()	scim_stand19	=[	$stand19,	scim_stand1	] {ai_stand();};
 
 void()	scim_walk1	=[	$walk1,	scim_walk2	] {
 if (random() < 0.2)
