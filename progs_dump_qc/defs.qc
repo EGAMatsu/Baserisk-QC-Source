@@ -296,6 +296,7 @@ float	IT_GRENADE_LAUNCHER		= 16;
 float	IT_ROCKET_LAUNCHER		= 32;
 float	IT_LIGHTNING			= 64;
 float	IT_EXTRA_WEAPON			= 128;
+float	IT_LINKED_SWORD			= 9823;
 
 float	IT_SHELLS				= 256;
 float	IT_NAILS				= 512;
